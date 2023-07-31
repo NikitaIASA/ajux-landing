@@ -1,0 +1,51 @@
+@import "../scss/index.scss";
+
+.header {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    display: flex;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    color: $dark-pink;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+
+  &__item {
+    transition: 0.3s linear;
+
+    &:last-child {
+      padding: 10px 24px;
+      background-color: $dark-pink;
+      border-radius: 6px;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    color: $grey;
+
+    &:hover, &.active {
+      color: $dark-pink;
+      border-bottom: 1px solid $dark-pink;
+    }
+  }
+}
