@@ -2,9 +2,9 @@ import { FC } from "react";
 import heroImage from "../../assets/hero/hero1.jpg";
 import heroImage2 from "../../assets/hero/hero2.jpg";
 
-interface HeroProps {}
-
 import "./Hero.scss";
+
+interface HeroProps {}
 
 export const Hero: FC<HeroProps> = () => {
   return (
