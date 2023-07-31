@@ -1,6 +1,6 @@
 import { FC } from "react";
-import heroImage from "../assets/hero/hero1.jpg";
-import heroImage2 from "../assets/hero/hero2.jpg";
+import heroImage from "../../assets/hero/hero1.jpg";
+import heroImage2 from "../../assets/hero/hero2.jpg";
 
 interface HeroProps {}
 
