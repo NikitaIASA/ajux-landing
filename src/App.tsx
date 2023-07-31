@@ -1,11 +1,13 @@
-import { Container } from "./components/Container/Container";
-import { Header } from "./components/Header/Header";
+import Container from "./components/Container";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
       <Container>
         <Header />
+        <Hero/>
       </Container>
     </>
   );

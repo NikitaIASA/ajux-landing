@@ -1,0 +1,80 @@
+@import "../scss/index.scss";
+
+.hero {
+  padding: 140px 0;
+  position: relative;
+
+  &__inner {
+    display: flex;
+    gap: 130px;
+  }
+
+  &__welcome {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 17px;
+    color: $dark-grey;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+
+    span {
+      color: $dark-pink;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.32px;
+    }
+  }
+  &__title {
+    width: 566px;
+    color: $dark-grey;
+    margin-bottom: 32px;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+  }
+
+  &__description {
+    color: $grey;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.36px;
+  }
+
+  &__button {
+    display: flex;
+    padding: 20px 64px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+    border-radius: 8px;
+    border: none;
+    background-color: $dark-pink;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    cursor: pointer;
+  }
+
+  &__images {
+    display: flex;
+
+    &-group img:first-child {
+      margin-bottom: 24px;
+    }
+
+  }
+
+  &__circle {
+    position: absolute;
+    top: 50px;
+    right: -100px;
+    z-index: -1;
+  }
+
+
+}
