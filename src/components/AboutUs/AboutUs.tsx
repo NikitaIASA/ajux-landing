@@ -19,7 +19,7 @@ export const AboutUs: FC<AboutUsProps> = () => {
               subtitle="About us"
               description="Let our experts prepare a free home analysis for you! Just fill out our form. Surround yourself with the luxury and quality of one of Saskatoon’s premier home builder. At Properties we take pride in building you everything you need to call The Meadows home."
             />
-            <p className="about-us__more">
+            <p className="more">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="17"

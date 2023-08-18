@@ -31,10 +31,12 @@ interface ServicesListProps {}
 
 export const ServicesList: FC<ServicesListProps> = () => {
   return (
-    <div className="services-list container">
-      {data.map((item) => (
-        <ServicesItem key={item.id} {...item} />
-      ))}
-    </div>
+    <section className="services">
+      <div className="services-list container">
+        {data.map((item) => (
+          <ServicesItem key={item.id} {...item} />
+        ))}
+      </div>
+    </section>
   );
 };

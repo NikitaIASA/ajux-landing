@@ -1,9 +1,10 @@
 @import "../../scss/index.scss";
 
 .hero {
-  position: relative;
+
   &__inner {
-    padding: 140px 0;
+    position: relative;
+    padding: 106px 0 70px 0;
     display: flex;
     gap: 130px;
   }

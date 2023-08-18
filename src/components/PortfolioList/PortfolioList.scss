@@ -1,0 +1,15 @@
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 48px;
+  position: relative;
+
+  &__circle {
+    position: absolute;
+    top: -70px;
+    right: -80px;
+    z-index: -1;
+  }
+
+}

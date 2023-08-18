@@ -1,0 +1,36 @@
+@import "../../scss/index.scss";
+
+.portfolio-item {
+  position: relative;
+
+  &__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    color: $light-grey;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.72px;
+  }
+
+  &__subtitle {
+    color: $dark-white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+  }
+
+}
