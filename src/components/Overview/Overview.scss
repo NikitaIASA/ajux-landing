@@ -1,0 +1,24 @@
+@import "../../scss/index.scss";
+
+.overview {
+  padding: 40px 0;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+
+  &__title {
+    color: $grey-cacccf;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 167%;
+  }
+
+  &__number {
+    color: $pink;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

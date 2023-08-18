@@ -1,2 +1,9 @@
 @import "./reset.scss";
 @import "./colors.scss";
+
+.container {
+  max-width: 1210px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}

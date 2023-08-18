@@ -8,10 +8,10 @@ interface HeroProps {}
 
 export const Hero: FC<HeroProps> = () => {
   return (
-    <section className="hero">
+    <section className="hero container">
       <div className="hero__inner">
         <div className="hero__left">
-          <p className="hero__welcome">
+          <p className="hero__subtitle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="43"

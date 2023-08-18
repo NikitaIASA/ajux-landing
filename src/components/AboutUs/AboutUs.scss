@@ -1,0 +1,37 @@
+@import "../../scss/index.scss";
+
+.about-us {
+
+  &__inner {
+    display: flex;
+    gap: 109px;
+  }
+
+  &__more {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: $dark-pink;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 167%;
+    letter-spacing: 0.32px;
+  }
+
+  &__right {
+    position: relative;
+  }
+
+  &__top-circle {
+    position: absolute;
+    top: -35px;
+  }
+
+  &__bottom-circle {
+    position: absolute;
+    bottom: -70px;
+    left: -100px;
+    z-index: -1;
+
+  }
+}

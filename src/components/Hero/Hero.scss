@@ -1,15 +1,14 @@
 @import "../../scss/index.scss";
 
 .hero {
-  padding: 140px 0;
   position: relative;
-
   &__inner {
+    padding: 140px 0;
     display: flex;
     gap: 130px;
   }
 
-  &__welcome {
+  &__subtitle {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -66,7 +65,6 @@
     &-group img:first-child {
       margin-bottom: 24px;
     }
-
   }
 
   &__circle {
@@ -75,6 +73,4 @@
     right: -100px;
     z-index: -1;
   }
-
-
 }
