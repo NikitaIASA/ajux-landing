@@ -1,0 +1,39 @@
+@import "../../scss/index.scss";
+
+.testimoniall-slide {
+  display: flex;
+  flex-direction: column;
+//   width: 374px;
+  padding: 28px 27px 45px 28px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 12px 24px 0px rgba(80, 80, 80, 0.04);
+
+  &__text {
+    color: $grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 177%;
+    margin-bottom: 48px;
+  }
+
+  &__person-information {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  &__name {
+    color: $dark-grey;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 177%;
+  }
+
+  &__location {
+    color: #a0a4a8;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 177%;
+  }
+}
