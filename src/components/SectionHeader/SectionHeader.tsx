@@ -31,7 +31,9 @@ export const SectionHeader: FC<SectionHeaderProps> = ({
         {subtitle}
       </p>
       <h2 className="section-header__title">{title}</h2>
-      <p className="section-header__description">{description}</p>
+      {description && (
+        <p className="section-header__description">{description}</p>
+      )}
     </div>
   );
 };
